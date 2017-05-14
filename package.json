@@ -2,12 +2,12 @@
   "name": "ReactExpressBoilerplate",
   "version": "1.0.0",
   "description": "React-Express Boilerplate",
-  "main": "client.js",
+  "main": "app.js",
   "scripts": {
     "webpack-watch": "webpack -w",
-    "express-server": "node ./index",
+    "express-server": "node app.js",
     "dev": "concurrently --kill-others \"npm run webpack-watch\" \"npm run express-server\"",
-    "start": "node server.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Liam Vovk",
